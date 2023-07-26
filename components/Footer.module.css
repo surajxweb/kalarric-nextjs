@@ -1,0 +1,46 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.info li {
+    list-style: none;
+    margin: 10px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links li:hover{
+    text-decoration: underline;
+}
+
+.insta, .twitter {
+    color: white;
+    transition: transform .2s;
+    margin-left: 20px;
+}
+
+.twitter:hover, .insta:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.credit {
+    border-top: 1px solid white;
+    margin: auto;
+    font-size: 12px;
+    width: 90%;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}

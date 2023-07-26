@@ -1,0 +1,47 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto 35px auto;
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the flex items (input and button) horizontally */
+  flex-wrap: wrap; /* Allow wrapping if the content overflows */
+}
+
+.emailInput {
+  font: inherit;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 60%; /* Allow the input field to grow to fill available space */
+}
+
+.submitButton {
+  font:inherit;
+  padding: 10px 20px;
+  background-color: rgb(221, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+   
+  
+  .submitButton:hover {
+    background-color:  #6e0808;
+  }
+  

@@ -1,0 +1,82 @@
+
+
+.nav1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #b3b3b3;
+  padding: 2px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 32px; /* Adjust the width to match your image size */
+  height: 32px; /* Adjust the height to match your image size */
+  background-image: url("../resources/logo/smalllogo.png"); /* Replace with the path to your default image */
+  background-size: cover;
+}
+
+.imageContainer:hover {
+  background-image: url("../resources/logo/smalllogo_white.png"); /* Replace with the path to your hover image */
+}
+
+.logo {
+  width: 10%;
+}
+
+.pages {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pages li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.pages li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+.tools {
+  position: relative;
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon,
+.carts {
+  cursor: pointer;
+  color: #b3b3b3;
+}
+
+.icon:hover {
+  color: #ffffff;
+}
+
+.cartno {
+  position: absolute;
+  bottom: -4px;
+  right: -1px;
+  padding: 2px 8px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
