@@ -2,9 +2,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import { useRouter } from "next/router"; // Import the useRouter hook
-import tshirt1 from "../resources/Header/1.png";
-import tshirt2 from "../resources/Header/2.png";
-import tshirt3 from "../resources/Header/3.png";
+import tshirt1 from "../resources/Header/tshirtone.png";
+import tshirt2 from "../resources/Header/tshirt2.png";
+import tshirt3 from "../resources/Header/tshirt3.png";
 import styles from "./Tshirts.module.css";
 
 export default function Tshirts() {

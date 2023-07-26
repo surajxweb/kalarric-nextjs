@@ -6,8 +6,7 @@ const JoinTribe = () => {
       <p className={styles.description}>
         Ready to elevate your style game? Join the Kalarric Tribe today and
         unlock a world of exclusive updates, trendsetting drops, and sizzling
-        hot offers delivered right to your inbox. Stay ahead of the curve and
-        embrace the fashion journey with us!
+        hot offers delivered right to your inbox.
       </p>
       <form className={styles.form}>
         <input
