@@ -18,8 +18,8 @@ export default function Home() {
       <Navbar />
       <Offers />
       <Tshirts />
-      <Wallets />
-      <Caps />
+      {/* <Wallets />
+      <Caps /> */}
       <JoinTribe />
       <Footer />
     </div>

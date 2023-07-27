@@ -10,7 +10,6 @@ export default function Caps() {
         width={1536}
         height={600}
         alt="banner for caps"
-        loading="lazy"
         className={styles.capscontainer}
       />
     </>
