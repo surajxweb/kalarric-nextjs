@@ -1,8 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import Tshirts from "../components/Tshirts";
-import Caps from "../components/Caps";
-import Wallets from "../components/Wallets";
 import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import Offers from "../components/Offers";
@@ -18,8 +16,6 @@ export default function Home() {
       <Navbar />
       <Offers />
       <Tshirts />
-      {/* <Wallets />
-      <Caps /> */}
       <JoinTribe />
       <Footer />
     </div>
