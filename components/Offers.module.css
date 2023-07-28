@@ -1,7 +1,27 @@
+/* Common styles for the .nav2 container and .text */
 .nav2 {
-    background-color: rgba(0, 0, 0, 0.15);
-    width: 100%;
-    text-align: center;
-    font-size: 13px;
-    padding: 5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  margin-bottom: 1px;
+}
+
+.text {
+  padding: 5px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 12px;
   }
+}
+
+/* Adjust the font size for smaller screens */
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 11px;
+  }
+}

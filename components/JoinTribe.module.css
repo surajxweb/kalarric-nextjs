@@ -1,8 +1,9 @@
+/* Common styles for the container and description */
 .container {
   max-width: 800px;
   margin: 0 auto 35px auto;
   padding: 20px;
-  text-align: center; /* Center the content horizontally */
+  text-align: center;
 }
 
 .description {
@@ -11,12 +12,13 @@
   margin-bottom: 20px;
 }
 
+/* Styles for the form */
 .form {
   margin-top: 30px;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the flex items (input and button) horizontally */
-  flex-wrap: wrap; /* Allow wrapping if the content overflows */
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .emailInput {
@@ -25,11 +27,12 @@
   border: 1px solid #ccc;
   border-radius: 20px;
   margin-right: 10px;
-  width: 60%; /* Allow the input field to grow to fill available space */
+  width: 100%; /* Allow the input field to fill the available space */
+  max-width: 300px; /* Limit the maximum width of the input field */
 }
 
 .submitButton {
-  font:inherit;
+  font: inherit;
   padding: 10px 20px;
   background-color: rgb(221, 19, 19);
   color: white;
@@ -39,9 +42,34 @@
   transition: background-color 0.3s ease;
 }
 
-   
-  
-  .submitButton:hover {
-    background-color:  #6e0808;
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
   }
-  
+
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+  }
+
+  .submitButton {
+    font-size: 12px;
+  }
+
+
+  .emailInput {
+    font-size: 12px;
+    max-width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Adjust the font size for smaller screens */
+@media screen and (max-width: 480px) {
+  .description {
+    font-size: 14px;
+  }
+}

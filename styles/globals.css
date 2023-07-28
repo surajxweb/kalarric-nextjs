@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&family=Noto+Sans+Javanese&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-family: 'Cormorant', serif;
+font-family: 'Noto Sans Javanese', sans-serif; */
+
 
 * {
   padding: 0;
@@ -7,5 +16,6 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
 }

@@ -34,6 +34,7 @@
   margin: 0 auto;
 }
 
+
 .pages li {
   list-style: none;
   margin: 0 20px;
@@ -66,6 +67,7 @@
 .icon:hover {
   color: #ffffff;
 }
+  
 
 .cartno {
   position: absolute;
@@ -79,4 +81,67 @@
   font-size: 12px;
 }
 
+.mpages {
+  display: none;
+  
+}
 
+
+
+.ham, .cross {
+  display: none;
+}
+
+@media (max-width: 767px) {
+
+.nav1 {
+  position: relative;
+}
+
+.mpages {
+  position: absolute;
+  background-color: rgb(136, 133, 133);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  padding: 20px 10px;
+}
+.mpages li {
+  list-style: none;
+}
+
+.mpages  a {
+  text-decoration: none;
+  color: #b3b3b3;;
+}
+
+.mpage {
+  border: 3px solid rgb(198, 197, 197);
+  padding: 10px;
+  margin: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pages {
+  display: none;
+}
+
+.mpages {
+  display: block;
+}
+
+.ham, .cross {
+  display: block;
+}
+
+.search, .user {
+  display: none;
+}
+
+.cartno {
+  font-size: 8px;
+  padding: 1px 4px;
+}
+}

@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.credit}>
-        <div>Made with 💝 by Suraj Katyayan</div>
+        <div>Made in India with 💝 by Suraj Katyayan</div>
         <div>&copy; 2022-23 Kalarric Lifestyle</div>
       </div>
     </div>

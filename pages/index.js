@@ -5,8 +5,14 @@ import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import Offers from "../components/Offers";
 import JoinTribe from "../components/JoinTribe";
+import Design from "../components/Design";
+import BestSellers from "../components/BestSellers";
 
 export default function Home() {
+  const data = {
+    products: [{}, {}, {}],
+    accounts: [{}],
+  };
   return (
     <div className={styles.container}>
       <NextSeo
@@ -16,6 +22,8 @@ export default function Home() {
       <Navbar />
       <Offers />
       <Tshirts />
+      <BestSellers products={data.products} />
+      <Design />
       <JoinTribe />
       <Footer />
     </div>
