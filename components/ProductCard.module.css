@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY();
+}
+
+.container img {
+}
+
+.name, .price, .buybutton {
+    margin: 5px;
+}
+
+.buybutton {
+    font: inherit;
+    border: none;
+    padding: 10px;
+    background-color: rgb(182, 179, 179);
+}
+
+.buybutton:hover {
+    background-color:  rgb(206, 196, 196, 0.8);
+    
+}

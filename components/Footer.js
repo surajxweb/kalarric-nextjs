@@ -3,6 +3,7 @@ import Link from "next/link";
 import biglogo from "../resources/logo/biglogo.png";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import { GiReturnArrow } from "react-icons/gi";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -27,8 +28,8 @@ export default function Footer() {
         </div>
         <div className={styles.company}>
           <ul className={styles.links}>
-            <Link href="/about">
-              <li>About Us</li>
+            <Link href="/ourstory">
+              <li>Our Story</li>
             </Link>
             <Link href="/shippingandreturns">
               <li>Shipping and Returns</li>
@@ -42,6 +43,12 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.socials}>
+          <div className={styles.return}>
+            <Link href="/shippingandreturns">
+              <GiReturnArrow className={styles.returnicon} size="2em" /> 30 Days
+              Easy Returns
+            </Link>
+          </div>
           <div>
             <Link href="https://www.instagram.com/kalarric">
               <BsInstagram className={styles.insta} size="2em" />
@@ -53,7 +60,6 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.credit}>
-        <div>Made in India with 💝 by Suraj Katyayan</div>
         <div>&copy; 2022-23 Kalarric Lifestyle</div>
       </div>
     </div>

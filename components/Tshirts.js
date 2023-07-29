@@ -2,9 +2,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import tshirt1 from "../resources/Header/tshirtone.png";
-import tshirt2 from "../resources/Header/tshirt2.png";
-import tshirt3 from "../resources/Header/tshirt3.png";
+import tshirt1 from "../resources/Header/one.png";
+import tshirt2 from "../resources/Header/two.png";
+import tshirt3 from "../resources/Header/three.png";
 import styles from "./Tshirts.module.css";
 
 export default function Tshirts() {
@@ -24,6 +24,7 @@ export default function Tshirts() {
         showStatus={false}
         swipeable={true}
         showIndicators={false}
+        showThumbs={false}
         onClickItem={roadToTShirt}
         className={styles.carousel}
       >
